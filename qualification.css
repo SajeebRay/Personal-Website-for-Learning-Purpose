@@ -1,0 +1,253 @@
+
+*{
+    margin: 0px; padding: 0px;
+} 
+.header {
+    display: table;
+    width: 100%;
+    height: 53px;
+}
+ul.headerUL {
+    list-style: none;
+    height: 52px;
+    background: linear-gradient(#71f18ded,#4f9554c7);
+    border: 2px solid #91f190;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+li.headerLi {
+    float: left;
+    position: relative;
+}
+a.headerButton {
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 13px;
+    font-size: 19px;
+    display: block;
+    color: white;
+    transition: all .5s;
+}
+a.headerButton:hover{
+    transform: scale(.9);
+    background: whitesmoke;
+    color: deepskyblue;
+    font-size:23px;
+}
+li.headerLogIn {
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0px;
+    font-size: 23px;
+    display: block;
+    float: right;
+}
+ul.subMenu {
+    position: absolute;
+    top: 53px;
+    left: 194px;
+    list-style: none;
+    width: 131px;
+    background: linear-gradient(#71f18ded,#4f9554c7);
+    border-top: 3px #606997 solid;
+    overflow: hidden;
+    transform: scaleY(0);
+    opacity: .25;
+    transform-origin: top;
+    transition: all 1s;
+}
+.headerUL:hover .subMenu{
+    opacity: 100;
+    transform: scaleY(1);
+}
+
+li.subHeaderLi {
+    width: 100%;
+    margin-left: -20px;
+}
+.subMenu a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 18px;
+    color: white;
+    padding-bottom: 18px;
+    padding-left: 29px;
+    display: block;
+    transition: all .5s;
+}
+.subMenu a:hover{
+    transform: scale(.9);
+    transform: translate(20px);
+    background: whitesmoke;
+    color: deepskyblue;
+    font-size:23px;
+}
+.sajeeb{
+    padding: 60px 30px;
+    text-align: center;
+    color: tomato;
+    font-size: 30px;
+   
+}
+.welcomeSaj{
+    animation-name: sajeeb;
+    animation-duration: 3s;
+}
+
+ @keyframes sajeeb{
+     from{
+         transform: scale(3);
+     }
+     to{
+         transform: scale(1);
+     }
+ }
+.homePage{
+    background: rgb(206, 214, 240);
+    padding: 30px 0px;
+}
+
+.aPlusBlock{
+    background: #f1f2ed4f;
+    border: 2px solid #ddc7c77a;
+    width: 451px;
+    padding: 25px;
+    border-radius: 30px;
+    padding: 45px;
+    transition: all 1.5s;
+}
+.aPlusBlock:hover{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.aPlusPhoto{
+    width: 137px;
+    border: solid 2px #8080806b;
+    float: left;
+}
+.aPlusBlockL{
+    width: 200px;
+    float: right;
+}
+h1.examName {
+    font-size: 50px;
+    margin-bottom: 15px;
+    transition: transform 1s;
+}
+.aPlusBlockL, .aPlusBlockF{
+    display: inline-block;
+}
+.sscHsc{
+    width: 1096px;
+    margin: auto;
+}
+#sscBlock, #hscBlock{
+    display: inline-block;
+}
+
+.aPlusBlock:hover h1.examName{
+    transform: translateX(100px);
+} 
+
+.undergraduateBlock {
+    background: #f1f2ed4f;
+    border: 2px solid #ddc7c77a;
+    width: 452px;
+    padding: 25px;
+    border-radius: 30px;
+    padding: 45px;
+    overflow: hidden;
+    transition: all 1.5s;
+}
+.undergraduateBlock:hover{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.qualityAnimation{
+    animation-name: qualityAnimatio;
+    animation-duration: 2s;
+}
+@keyframes qualityAnimatio{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.results{
+    font-size: 70px;
+    text-align: center;
+    color: #2117bac7;
+    margin-bottom: 25px;
+}
+
+.iceOne, .iceText{
+    display: inline-block;
+}
+h1.ice {
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 13px;
+    color: #13ca10;
+    transition: transform 1s;
+}
+.undergraduateBlock:hover h1.ice{
+    transform: translate(50px);
+}
+
+img.iceOne {
+    float: left;
+    width: 230px;
+    height: 252px;
+}
+.iceText{
+    width: 200px;
+    float: right;
+    line-height: 13px;
+    color: #16aef3;
+}
+#studingOne, #studingTwo{
+    display: inline-block;
+}
+.copyright{
+    background: #3b0a0a9c;
+    color: white;
+    padding: 23px;
+    overflow: hidden;
+}
+.copyRigh{
+    text-align: center;
+    font-size: 14px;
+}
+.trainPage{
+    background: #d76651eb;
+    border: 2px solid #ce7474;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.trainPagePA{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 27px;
+    color: #04660bb5;
+    display: block;
+    transition: all 1s;
+
+}
+.trainPagePA:hover{
+    color: white;
+    background: black;
+    transform: scale(2);
+}

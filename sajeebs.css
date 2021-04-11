@@ -1,0 +1,433 @@
+*{margin: 0px; padding: 0px;}
+
+body{
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  font-family: sajeebFOntCentury;
+}
+
+@font-face {
+    font-family: sajeebFOntCentury;
+    src: url="font/centuryFont.woff";
+}  
+
+
+.headerButton {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(#0c0b84ed,#3d4cc0c7);
+    position: fixed;
+    width: 90%;
+  }
+  
+  .liHeaderButton {
+    float: left;
+  }
+  
+  .liHeaderButton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 1s;
+  }
+  
+  .liHeaderButton a:hover {
+    background-color: #111;
+    transform: scale(.85);
+  }
+
+
+.extraJoyguru{
+    padding: 3px;
+    border: 4px solid #1781b3;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #e0c491bf;
+    border: 3px solid #431be5e8;
+    border-bottom-left-radius: 29px;
+    box-shadow: -8px 20px 13px 9px #4f45f5a6;
+    text-shadow: -10px 10px 3px #5f6ded;
+    color: #35a135;
+    margin: 16px 3px;
+}
+.joyGuru{
+    
+    background: #e0c491bf;
+    border: 3px dashed #35a135;
+    border-radius: 50px;
+    padding: 9px 15px;
+    font-weight: bold;
+
+}
+
+.signTable{
+   width: 1000px;
+   display: block;
+}
+
+div#extradiv{float: left;
+    background-color: rgba(186, 182, 246, 0.86);
+    margin: 60px;
+    width: 300px;
+    height: 585px;
+   padding: 6px;
+   border: 6px solid #504343;
+}
+div#amarblock{
+    border: 6px solid rgb(153, 141, 141);
+    padding: 10px;
+}
+.signtitle{
+     background: #38add3;
+     margin-bottom: 10px;
+     width:100%;
+     }
+div#signtitle h2{
+    padding: 10px;
+    font-style: rgb(0, 38, 255) italic;
+    margin: 0px;
+}
+
+div#inputfield input{
+    margin-bottom: 10px;
+    display: block;   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 98%;
+    border-radius: 3px;
+    background-color: #5b0707d6;
+    color: white;
+    }
+    #inputfield select{
+    margin-bottom: 10px;
+    display: block;   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: #5b0707d6;
+    color: white;
+    }
+div#inputfiel span{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #5a4242;
+}
+
+.submitbutton input{
+    width: 100%;
+    background:rgba(98, 114, 160, 0.46);
+    padding: 8px;
+    font-style:initial;
+    border-radius: 5px;
+    border: 2px solid rgb(131, 131, 215);
+}
+
+.extraDIVTable{
+    float: right;
+    background-color: rgba(186, 182, 246, 0.86);
+    margin: 60px;
+    width: 300px;
+    height: 585px;
+    padding: 6px;
+    border: 6px solid #504343;
+}
+
+.tableInitial{
+    color: #604745;
+    width: 300px;
+    height: 585px;
+    border-collapse: collapse;
+   border: 6px solid rgb(153, 141, 141);
+}
+.trTableHead{
+    background: #38add3;
+}
+.nigom{
+    background: #acb3f1;
+    border: 29px solid #6280f6f2;
+    font-weight: bolder;
+    font-size: 33px;
+}
+.memName{
+font-size: large;
+}
+
+.sajeebAnimaion{
+    border: 3px solid yellow;
+background: linear-gradient(red,black);
+color: white;
+width: 200px;
+padding: 20px 20px;
+font-size: 30px;
+text-align: center;
+margin: auto;
+animation-name: tumiJao;
+animation-duration: 3.5s;
+overflow: hidden;
+}
+@keyframes tumiJao{
+    from{
+        transform:rotate(0deg) translate(-500px);
+    }
+    to{
+        transform:rotate(360deg) translate(500px);
+    }
+}
+
+
+
+.attachblock{
+    width: 700px;
+    overflow: hidden;
+}
+
+
+#dolarblock, #block2{
+    display: inline-block;
+}
+
+
+div#dolarblock{
+    
+    margin: 60px;
+    border: 2px solid rgb(29, 36, 33);
+    background: white;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+div#dolarblock span{width: 200px;
+   background: aliceblue;
+   padding: 10px;
+   padding-right: 30px;
+    padding-left: 30px;}
+
+#dolarsign{
+    
+    font-size: 50px;
+    color: tomato;
+}
+#block1{
+    color: black;
+    margin-bottom: 10px;
+}
+#block2{
+    margin: 60px;
+    border: 2px solid;
+    padding: 30px;
+    background: white;
+    width: 300px;
+    height: 300px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    float: left;
+}
+
+div img{width: 90px;
+   background: aliceblue;
+   padding: 30px;
+   padding-right: 30px;
+    padding-left: 30px;}
+.design{
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+.logo{
+    margin-bottom: 55px;
+}
+#table {
+    width: 700px;
+    overflow: hidden;
+    margin: auto;
+
+}
+#tableheader{
+    background: #d92513ab;
+    text-align: center;
+    padding: 30px;
+}
+#maintext{
+    overflow: hidden;
+}
+#list{
+    border: 1px solid black;
+    width: 200px;
+    height: 190px;
+    float: left;
+}
+#paradis{
+    border: 1px solid black;
+    width: 482px;
+    padding-left: 14px;
+    height: 190px;
+    float: right;
+}
+#tablefooter{
+    background: #d92513ab;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.box{
+    padding: 20px;
+    width: 250px;
+    margin: 30px;
+    height: 200px;
+    border: 3px dashed #933c3c;
+    background: #9be4e4b0;
+    outline: 5px solid #2926d2a6;
+    color: #933c3c;
+    font-weight: bolder;
+    font-size: large;
+}
+
+h1#teat{
+    height: 99px;
+    background-color: rgba(250, 145, 145, 0.58);
+    width: 41px;
+    margin: 30px;
+    padding: 29px 87px;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.liner li{
+    display: inline;
+}
+.liner{
+    width: 650px;
+    background-color: #acdcac96;
+    border: 5px solid #8f91c6e0;
+    outline: 5px solid #202020e3;
+    margin: 30px;
+}
+#button{
+    padding: 12px 23px;
+    border: 5px solid #117025;
+    background: #1648dad9;
+}
+
+
+#fblinkFotter{
+    background: linear-gradient(red,black);
+    color: #452dc9;
+    width: 251px;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.fblickfoot{
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.fblickfoot:hover{
+    background: black;
+    border-radius: 50px;
+
+}
+
+#victoryFootter{
+    overflow: hidden;
+}
+.firstfootter{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid gray;
+    padding: 30px;
+}
+
+.tranTest{
+    border: 3px solid yellow;
+background: linear-gradient(red,black);
+color: white;
+width: 200px;
+padding: 20px 20px;
+font-size: 30px;
+text-align: center;
+margin: auto;
+animation-name: sajeeb;
+animation-duration: 2s;
+}
+
+ @keyframes sajeeb{
+     from{
+         transform: scale(1);
+     }
+     to{
+         transform: scale(3);
+     }
+ }
+
+.tranTestFirst{
+    border: 3px solid yellow;
+background: linear-gradient(red,black);
+color: white;
+width: 200px;
+padding: 20px 20px;
+font-size: 30px;
+text-align: center;
+margin: auto;
+transform: rotate(20deg);
+}
+
+.tranTestSecond{
+    border: 3px solid yellow;
+background: linear-gradient(red,black);
+color: white;
+width: 600px;
+height: 184px;
+padding: 20px 20px;
+font-size: 40px;
+text-align: center;
+margin: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{ color: white;
+
+} 
+
+
+.tranTestThird{
+    border: 3px solid yellow;
+background: linear-gradient(red,black);
+color: white;
+width: 600px;
+height: 184px;
+padding: 20px 20px;
+font-size: 140px;
+text-align: center;
+margin: auto;
+transition-duration: 2s;
+}
+.tranTestThird:hover{
+    color: rgb(39, 28, 196);
+    transform: translate(20px) skew(20deg) scale(0.8) rotate(360deg);
+    transition-delay: 0.25s;
+    background: black;
+    border-radius: 100px;
+    padding-left: 100px;
+    cursor: pointer;
+    
+}
+

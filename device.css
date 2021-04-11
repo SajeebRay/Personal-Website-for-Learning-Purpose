@@ -1,0 +1,55 @@
+table.deviceTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableDIV {
+    width: 400px;
+    background: cyan;
+    border: 6px solid darkgrey;
+    border-radius: 7px;
+}
+
+table.deviceTable {
+    border-collapse: collapse;
+    width: 100%;
+    height: 715px;
+}
+.tableTH {
+    font-size: 40px;
+    font-style: oblique;
+    color: red;
+    background: blanchedalmond;
+}
+
+p.deviceName {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: -15px;
+}
+
+ul.innerTable {
+    list-style: korean-hangul-formal;
+}
+
+li.innerTableLi {
+    padding: 3px 17px;
+    margin-left: 17px;
+}
+
+b.name {
+    font-size: 21px;
+}
+
+img.laptopPic {
+    width: 99%;
+    border: 2px solid chartreuse;
+}
+
+tfoot.tablefoot {
+    text-align: center;
+    color: mediumspringgreen;
+    background: #8e9573;
+}

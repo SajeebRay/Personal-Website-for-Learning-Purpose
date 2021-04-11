@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajeeb Kumar Ray</title>
+    <link rel="stylesheet" href="HomeCss.css"/>
+
+
+    <link rel="stylesheet" type="text/css" href="slider/styles.css" media="all" />
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="slider/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+
+</head>
+<body>
+
+    <section class="Menu">
+
+        <nav class="header">
+
+                <ul class="headerUL">
+                    <li class="headerLi"> <a class="headerButton" href="Home_page.html"> Home </a></li>
+                    <li class="headerLi"> <a class="headerButton" href="qualification.html"> Qualification </a></li>
+                    <li class="headerLi"> <a class="headerButton" href="#"> Friends </a></li>
+                    <ul class="subMenu">
+                        <li class="subHeaderLi"><a href="3">School</a></li>
+                        <li class="subHeaderLi"><a href="3">College</a></li>
+                        <li class="subHeaderLi"><a href="3">University</a></li>
+                    </ul>
+                    <li class="headerLi"> <a class="headerButton" href="family.html"> Family </a></li>
+                    <li class="headerLogIn"> <a class="headerButton" href="login.html"> log In</a> </li>
+                </ul>
+    
+        </nav>
+    </section>
+
+
+    <section class="sajeebWell">
+
+        <div class="sajeeb" title="This is sajeeb's website"> <h1 class="welcomeSaj"> Welcome to s@jeeb's</h1></div>
+    </section>
+
+
+
+
+    <section class="mySlider">
+
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<a href="http://www.facebook.com/sajeeb.lover"><img src="slider/images/slider/redShirtSlideImage.jpg" alt="" title="Click to open Facebook"/></a>
+					<div class="flex-caption">
+						 <div class="caption_title_line"><h2>Facebook Link</h2><p>Click to enter s@jeeb's facebook profile. By the way, this picture is awesome. My fans are like this so much.</p></div>
+					</div>
+				</li>
+				<li>
+					<a href="http://www.cscr.ac.bd"><img src="slider/images/slider/slide2.jpg" alt="" title="Click to go Collectorate College"/></a>
+					<div class="flex-caption">
+						 <div class="caption_title_line"><h2>CSCR</h2><p>Collectorate School & College, Rangpur. <br> That is soul of s@jeeb's body also. This place is awesome.  </p></div>
+					</div>
+				</li>
+				<li>
+					<a href="http://www.pust.ac.bd"><img src="slider/images/slider/slide3.jpg" alt="" title="Click to go Pabna University of Science & Technology"/></a>
+					<div class="flex-caption">
+						 <div class="caption_title_line"><h2>PUST</h2><p>Pabna University of Science & Technology<br> This is obviously a part of s@jeeb's life. And this is his second home.</p></div>
+					</div>
+				</li>
+				<li>
+					<a href="http://www.ice.pust.ac.bd"><img src="slider/images/slider/slide4.jpg" alt="" title="Click to open Dept. of ICE PUST"/></a>
+					<div class="flex-caption">
+						 <div class="caption_title_line"><h2>ICE</h2><p>Information & Communication Engineering <br> If you want to became a web devloper or build career in networking.</p></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</section>
+
+
+
+
+    <section class="homePage">
+
+
+            <div class="extraTableDIV">
+
+                <div class="tableDIV">
+
+                    <table class="deviceTable" border="1">
+                        <thead class="tableTH">
+                            <th>Device</th>
+                        </thead>
+                        <tbody class="tableTb">
+                            <td>
+            
+                                <p class="deviceName">HP Probook</p>
+                            <ul class="innerTable">
+                                <li class="innerTableLi">Cor i5</li>
+                                <li class="innerTableLi">8 <sup>th</sup> Gen</li>
+                                <li class="innerTableLi">RAM <b class="name">8 GB</b> </li>
+                                <li class="innerTableLi">SSD <b class="name">220 GB</b> </li>
+                                <li class="innerTableLi">HHD <b class="name">1T</b> </li>
+                                <li class="innerTableLi"><b class="name">2 GB</b> Graphics</li>
+                                <li class="innerTableLi">Processor: 1.60-3.90 GHz</li>
+                                <li class="innerTableLi">3-Cell Battery</li>
+            
+                            </ul>
+            
+                            <img class="laptopPic" title="HP Probook" src="laptop.jpg" alt="this is a laptop">
+                            </td>
+                            
+            
+                        </tbody>
+                        <tfoot class="tablefoot">
+                           <td> This is amazing
+                        </td>
+                        </tfoot>
+            
+                    </table>
+                </div>
+            
+            </div>
+
+        <div class="myImage">
+            <img class="sunglassMan" title="Photo of Sajeeb" src="image/FB_IMG_1586440543665.jpg">
+    
+            <h1 class="sajName">Sajeeb Kumar Ray </h1> 
+        </div>
+
+    </section>
+
+    <footer class="copyright">
+        <div class="fotterDIV">
+           <p class="copyRigh"> All right reserved.</p></br>
+           <p class="copyRigh"> &COPY; 2020</p>
+        </div>
+
+        <div class="trainPage">
+            <P class="trainPageP"> <a href="sajeeb_external.html" class="trainPagePA">My practice</a> </P>
+
+        </div>
+    </footer>
+
+
+
+    
+</body>
+</html>

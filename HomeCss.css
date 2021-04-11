@@ -1,0 +1,235 @@
+
+*{
+    margin: 0px; padding: 0px;
+} 
+.header {
+    display: table;
+    width: 100%;
+    height: 53px;
+}
+ul.headerUL {
+    list-style: none;
+    height: 52px;
+    background: linear-gradient(#71f18ded,#4f9554c7);
+    border: 2px solid #91f190;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+li.headerLi {
+    float: left;
+    position: relative;
+}
+a.headerButton {
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 13px;
+    font-size: 19px;
+    display: block;
+    color: white;
+    transition: all .5s;
+}
+a.headerButton:hover{
+    transform: scale(.9);
+    background: whitesmoke;
+    color: deepskyblue;
+    font-size:23px;
+}
+li.headerLogIn {
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0px;
+    font-size: 23px;
+    display: block;
+    float: right;
+}
+ul.subMenu {
+    position: absolute;
+    top: 53px;
+    left: 194px;
+    list-style: none;
+    width: 131px;
+    background: linear-gradient(#71f18ded,#4f9554c7);
+    border-top: 3px #606997 solid;
+    overflow: hidden;
+    transform: scaleY(0);
+    opacity: .25;
+    transform-origin: top;
+    transition: all 1s;
+}
+.headerUL:hover .subMenu{
+    opacity: 100;
+    transform: scaleY(1);
+}
+li.subHeaderLi {
+    width: 100%;
+    margin-left: -20px;
+}
+.subMenu a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 18px;
+    color: white;
+    padding-bottom: 18px;
+    padding-left: 29px;
+    display: block;
+    transition: all .5s;
+}
+.subMenu a:hover{
+    transform: scale(.9);
+    transform: translate(20px);
+    background: whitesmoke;
+    color: deepskyblue;
+    font-size:23px;
+}
+.sajeeb{
+    padding: 60px 30px;
+    text-align: center;
+    color: tomato;
+    font-size: 30px;
+   
+}
+.welcomeSaj{
+    animation-name: sajeeb;
+    animation-duration: 3s;
+}
+ @keyframes sajeeb{
+     from{
+         transform: scale(3);
+     }
+     to{
+         transform: scale(1);
+     }
+ }
+.homePage{
+    background: rgb(206, 214, 240);
+   
+}
+.myImage, .extraTableDIV{
+    display: inline-block;
+}
+.extraTableDIV{
+    padding: 25px;
+    margin-left: 200px;
+    box-shadow: 0px 33px 25px -2px #9b7878d1;
+}
+.tableDIV {
+    width: 400px;
+    background: #8db08d8f;
+    border: 2px solid #e0ffcc;
+    float: left;
+}
+table.deviceTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.deviceTable {
+    border-collapse: collapse;
+    width: 100%;
+    height: 715px;
+}
+.tableTH {
+    font-size: 50px;
+    font-style: oblique;
+    color: #673AB7;
+    text-shadow: 6px 6px 4px #8b6a6ac9;
+    background: #ffecb3cf;
+}
+
+p.deviceName {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: -15px;
+}
+
+ul.innerTable {
+    list-style: korean-hangul-formal;
+}
+
+li.innerTableLi {
+    padding: 6px 17px;
+    margin-left: 50px;
+}
+
+b.name {
+    font-size: 21px;
+}
+
+img.laptopPic {
+    width: 99%;
+    border: 2px solid chartreuse;
+}
+
+tfoot.tablefoot {
+    text-align: center;
+    color: #416658;
+    background: #ffecb3cf;
+}
+
+.myImage{
+    width: 800px;
+    animation-name: sajeebBro;
+    animation-duration: 2s;
+    padding: 25px;
+ }
+
+@keyframes sajeebBro{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.sunglassMan{
+    width: 510px;
+    height: 733px;
+    margin-bottom: 25px;
+    border: 2px solid #e0ffcc;
+    margin-left: 131px;
+}
+.sajName{
+    color: #ba5a48;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+}
+.copyright{
+    background: #3b0a0a9c;
+    color: white;
+    padding: 23px;
+    overflow: hidden;
+    width: 97%;
+}
+.copyRigh{
+    text-align: center;
+    font-size: 14px;
+}
+.trainPage{
+    background: #d76651eb;
+    border: 2px solid #ce7474;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.trainPagePA{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 27px;
+    color: #04660bb5;
+    display: block;
+    transition: all 1s;
+
+}
+.trainPagePA:hover{
+    color: white;
+    background: black;
+    transform: scale(2);
+}

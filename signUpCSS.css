@@ -1,0 +1,236 @@
+
+*{
+    margin: 0px; padding: 0px;
+} 
+.header {
+    display: table;
+    width: 100%;
+    height: 53px;
+}
+ul.headerUL {
+    list-style: none;
+    height: 52px;
+    background: linear-gradient(#71f18ded,#4f9554c7);
+    border: 2px solid #91f190;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+li.headerLi {
+    float: left;
+    position: relative;
+}
+a.headerButton {
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 13px;
+    font-size: 19px;
+    display: block;
+    color: white;
+    transition: all .5s;
+}
+a.headerButton:hover{
+    transform: scale(.9);
+    background: whitesmoke;
+    color: deepskyblue;
+    font-size:23px;
+}
+li.headerLogIn {
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0px;
+    font-size: 23px;
+    display: block;
+    float: right;
+}
+ul.subMenu {
+    position: absolute;
+    top: 53px;
+    left: 194px;
+    list-style: none;
+    width: 131px;
+    background: linear-gradient(#71f18ded,#4f9554c7);
+    border-top: 3px #606997 solid;
+    overflow: hidden;
+    transform: scaleY(0);
+    opacity: .25;
+    transform-origin: top;
+    transition: all 1s;
+}
+.headerUL:hover .subMenu{
+    opacity: 100;
+    transform: scaleY(1);
+}
+
+li.subHeaderLi {
+    width: 100%;
+    margin-left: -20px;
+}
+.subMenu a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 18px;
+    color: white;
+    padding-bottom: 18px;
+    padding-left: 29px;
+    display: block;
+    transition: all .5s;
+}
+.subMenu a:hover{
+    transform: scale(.9);
+    transform: translate(20px);
+    background: whitesmoke;
+    color: deepskyblue;
+    font-size:23px;
+}
+.sajeeb{
+    padding: 60px 30px;
+    text-align: center;
+    color: tomato;
+    font-size: 30px;
+   
+}
+.welcomeSaj{
+    animation-name: sajeeb;
+    animation-duration: 3s;
+}
+ @keyframes sajeeb{
+     from{
+         transform: scale(3);
+     }
+     to{
+         transform: scale(1);
+     }
+ }
+.homePage{
+    background: rgb(206, 214, 240);
+    padding: 30px;
+}
+.signUpFormBorder{
+    border: 6px solid #51cc426b;
+    border-radius: 25px;
+    padding: 6px;
+    width: 551px;
+    margin: auto;
+    
+}
+.animationOnly{
+    animation-name: loggin;
+    animation-duration: 2s;
+
+}
+@keyframes loggin{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+div#amarblock{
+    background-color: rgb(203, 200, 246);
+    width: 500px;
+    border-radius: 15px;
+    height: 644px;
+    padding: 25px;
+
+}
+.signtitle{
+    background: #0aa9dd;
+    margin-bottom: 24px;
+    border-radius: 50px;
+    width: 100%;
+    color: #664545;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -10px;
+}
+div#signtitle h2{
+    padding: 10px;
+    font-style: rgb(0, 38, 255) italic;
+    margin: 0px;
+}
+div#inputfield input{
+    margin-bottom: 10px;
+    display: block;   
+    padding: 8px 2px;;
+    width: 99%;
+    border-radius: 8px;
+    background-color: #a4c8ae9c;
+    color: #551818;
+    }
+#inputfield select{
+    margin-bottom: 10px;
+    display: block;   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: #a4c8ae9c;
+    color: #551818;
+    border-radius: 8px;
+    }
+div#inputfiel span{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #5a4242;
+}
+.calender{
+    width: 82%;
+    padding: 5px 2px;
+    background-color: #a4c8ae9c;
+    color: #551818;
+    border-radius: 8px;
+}
+.submitbutton input{
+    width: 100%;
+    background: rgba(53, 99, 231, 0.81);
+    padding: 5px;
+    font-style: initial;
+    font-weight: bolder;
+    font-size: 19px;
+    border-radius: 8px;
+    border: 2px solid rgba(87, 87, 223, 0.85);
+    color: #553535e6;
+    transition: all 1s;
+}
+.submitbutton input:hover{
+    transform: scale(1.1);
+    color: blue;
+    background: cornsilk;
+    cursor: pointer;
+}
+.copyright{
+    background: #3b0a0a9c;
+    color: white;
+    padding: 23px;
+    overflow: hidden;
+}
+.copyRigh{
+    text-align: center;
+    font-size: 14px;
+}
+.trainPage{
+    background: #d76651eb;
+    border: 2px solid #ce7474;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.trainPagePA{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 27px;
+    color: #04660bb5;
+    display: block;
+    transition: all 1s;
+}
+.trainPagePA:hover{
+    color: white;
+    background: black;
+    transform: scale(2);
+}
